@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "kube-service-bindings": "^3.0.0",
+    "nodemon": "^3.0.1",
+    "pg": "^8.11.3",
+    "pgtools": "^1.0.1",
+    "pool": "^0.4.1"
+  },
+  "name": "techcorp",
+  "version": "1.0.0",
+  "description": "assignment by BTST Tech",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Madhav Nair",
+  "license": "ISC"
+}
