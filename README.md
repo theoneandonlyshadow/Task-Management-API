@@ -7,13 +7,13 @@
 <h1 align="center">Task Management API</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/theoneandonlyshadow/techcorp?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/theoneandonlyshadow/task-managemnet-api?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/theoneandonlyshadow/techcorp?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/theoneandonlyshadow/task-managemnet-api?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/theoneandonlyshadow/techcorp?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/theoneandonlyshadow/task-managemnet-api?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/theoneandonlyshadow/techcorp?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/theoneandonlyshadow/task-managemnet-api?color=56BEB8">
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/techcorp?color=56BEB8" /> -->
 
@@ -115,41 +115,26 @@ $ nodemon index
 - (WSL) Type *psql -U postgres -h localhost* or *psql -h 127.0.0.1 -p 5432 -U postgres* to connect to PostgreSQL.
 - Open Postman and review my project according to the following endpoints:
 - Common Endpoints
-<<<<<<< HEAD
 - -> /displaytables: to display the tables
 - -> /displaydb: to display databases
-- -> /authenticate: "authenticate user to see their tasks.
--
-- User Endpoints:
-- -> /users/create: Create a user
-- -> /users/display: Read users (display all users)
-- -> /users/update: Update a user
-- -> /users/delete: Delete a user
-- Task Endpoints
-- -> /tasks/create: Create a task
-- -> /tasks/display: Read tasks (display all tasks)
-- -> /tasks/update: Update a task
-- -> /tasks/delete: Delete a task
+- -> /authenticate/{user_id}: authenticate user to see their tasks.
 
-=======
-- -> /displaytables: to display the tables (GET)
-- -> /displaydb: to display databases (GET)
-- -> /users/authenticate/user_id: "authenticate user's user_id to see their tasks. (GET)
--
 - User Endpoints:
 - -> /users/create: Create a user (POST)
 - -> /users/display: Read users (display all users) (GET)
 - -> /users/update: Update a user (PUT)
 - -> /users/delete: Delete a user (DELETE)
+- -> /users/authenticate/{user_id}: "authenticate user's user_id to see their tasks. (GET)
 - Task Endpoints
 - -> /tasks/create: Create a task (POST)
 - -> /tasks/display: Read tasks (display all tasks) (GET)
 - -> /tasks/update: Update a task (PUT)
 - -> /tasks/delete: Delete a task (DELETE)
+- -> /tasks/assigntask/{user_id}: Assign Task to a User (POST)
+- -> /tasks/markcomplete: Write "Mark Complete" to a task. "Not Complete" by default when creating a task for a user (PUT).
 
 ## NOTE ##
 If any feature is not working, please reinstall the tech and try again. If you would like a video of my screen recording about the full project, **please let me know at madhavnair700@gmail.com** or message me in WellFound.
->>>>>>> 4154401a3d5d2b264a62c88098b6ebc2ace42304
 
 ## :memo: License ##
 
