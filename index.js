@@ -2,28 +2,10 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const pool = require("./postbase.js");
 const port = 8070;
-const fetch = require('node-fetch');
 const router = express.Router();
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-
-fetch('http://localhost:8070/', {
-    method: 'GET',
-    headers: {
-        'Content-Type': 'application/json',
-    },
-})
-.then(response => {
-    if (!response.ok) {
-        throw new Error('Network response was not ok');
-    }
-    return response.text().then(text => text ? JSON.parse(text) : {})
-})
-.then(data => console.log(data))
-.catch((error) => {
-  console.error('Error:', error);
-});
 
 app.listen(port, () => {
  console.log(`Postgres + Node.js running on port ${port}`);
