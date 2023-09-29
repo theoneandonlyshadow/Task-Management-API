@@ -18,3 +18,12 @@ router.get('/:user_id', async (req, res) => {
 });
 
 module.exports = router;
+
+/* GUIDE FOR POSTMAN:
+- URL to be given: http://localhost:8070/users/authenticate{user_id}
+- Method: GET
+- JSON to be passed in body:
+    {
+        "user_id": {user_id}
+    }
+*/
