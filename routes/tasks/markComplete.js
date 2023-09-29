@@ -25,3 +25,13 @@ router.put('/', async (req, res) => {
 });
 
 module.exports = router;
+
+/* GUIDE FOR POSTMAN:
+- URL to be given: http://localhost:8070/tasks/markcomplete
+- Method: PUT
+- JSON to be passed in body:
+    {
+        "status": "Marked Complete"
+        "task_id": {task_id}
+    }
+*/
