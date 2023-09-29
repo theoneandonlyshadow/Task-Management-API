@@ -25,3 +25,10 @@ router.get('/', async (req, res) => {
 });
 
 module.exports = router;
+
+/* GUIDE FOR POSTMAN:
+- URL to be given: http://localhost:8070/users/display
+- Method: GET
+- JSON to be passed in body:
+    {}
+*/
