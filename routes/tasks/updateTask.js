@@ -25,3 +25,13 @@ router.put('/:user_id', async (req, res) => {
 });
 
 module.exports = router;
+
+/* GUIDE FOR POSTMAN:
+- URL to be given: http://localhost:8070/tasks/update/{user_id}
+- Method: PUT
+- JSON to be passed in body:
+    {
+        "task_name": {task_name),  --> rename task into something else
+        "task_id": {task_id}
+    }
+*/
