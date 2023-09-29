@@ -24,3 +24,13 @@ router.post('/', async (req, res) => {
   });
 
 module.exports = router;
+
+/* GUIDE FOR POSTMAN:
+- URL to be given: http://localhost:8070/tasks/create/
+- Method: POST
+- JSON to be passed in body:
+    {
+        "task_id": {task_id},
+        "task_name": {task_name),
+        "user_id": {user_id}
+    }
