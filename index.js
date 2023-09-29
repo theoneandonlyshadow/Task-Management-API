@@ -12,7 +12,6 @@ fetch('http://localhost:8070/', {
     headers: {
         'Content-Type': 'application/json',
     },
-    //body: JSON.stringify(data)
 })
 .then(response => {
     if (!response.ok) {
@@ -51,8 +50,8 @@ app.get("/", (req, res) => {
       "TASKS": {
         "/tasks/create": "Create a task",
         "/tasks/display": "Read tasks (display all tasks)",
-        "/tasks/update": "Update a task [nope]",
-        "/tasks/delete": "Delete a task [nope]"
+        "/tasks/update": "Update a task",
+        "/tasks/delete": "Delete a task"
       }
     }
   );
