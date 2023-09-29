@@ -103,21 +103,23 @@ $ nodemon index
 - (WSL) Type *psql -U postgres -h localhost* or *psql -h 127.0.0.1 -p 5432 -U postgres* to connect to PostgreSQL.
 - Open Postman and review my project according to the following endpoints:
 - Common Endpoints
-- -> /displaytables: to display the tables
-- -> /displaydb: to display databases
-- -> /authenticate: "authenticate user to see their tasks.
+- -> /displaytables: to display the tables (GET)
+- -> /displaydb: to display databases (GET)
+- -> /users/authenticate/user_id: "authenticate user's user_id to see their tasks. (GET)
 -
 - User Endpoints:
-- -> /users/create: Create a user
-- -> /users/display: Read users (display all users)
-- -> /users/update: Update a user
-- -> /users/delete: Delete a user
+- -> /users/create: Create a user (POST)
+- -> /users/display: Read users (display all users) (GET)
+- -> /users/update: Update a user (PUT)
+- -> /users/delete: Delete a user (DELETE)
 - Task Endpoints
-- -> /tasks/create: Create a task
-- -> /tasks/display: Read tasks (display all tasks)
-- -> /tasks/update: Update a task
-- -> /tasks/delete: Delete a task
+- -> /tasks/create: Create a task (POST)
+- -> /tasks/display: Read tasks (display all tasks) (GET)
+- -> /tasks/update: Update a task (PUT)
+- -> /tasks/delete: Delete a task (DELETE)
 
+##NOTE##
+If any feature is not working, please reinstall the tech and try again. If you would like a video of my screen recording about the full project, **please let me know at madhavnair700@gmail.com** or message me in WellFound.
 
 ## :memo: License ##
 
