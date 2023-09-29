@@ -109,7 +109,8 @@ $ nodemon index
 - Open Docker Desktop and start.
 - (PowerShell) Type *docker compose up*
 - Project container should be visible in the Docker Desktop.
-- Open VS Code, open Command Palette and type *New Query* and type in credentials.
+- Open pgAdmin 4 (PostgreSQL) and make a new database.
+- Open VS Code, open Command Palette and type *New Query* (requires PostgreSQL extension) and type in credentials.
 - (WSL) Type *sudo systemctl status postgresql* to see if PostgreSQL is active.
 - (WSL) Type *psql -U postgres -h localhost* or *psql -h 127.0.0.1 -p 5432 -U postgres* to connect to PostgreSQL.
 - Open Postman and review my project according to the following endpoints:
