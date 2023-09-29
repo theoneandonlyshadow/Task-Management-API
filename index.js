@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const pool = require("./postbase.js");
 const port = 8070;
+const fetch = require('node-fetch');
 const router = express.Router();
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
