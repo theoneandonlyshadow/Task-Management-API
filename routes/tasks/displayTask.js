@@ -26,3 +26,6 @@ module.exports = router;
 - Method: GET
 - JSON to be passed in body:
     {}
+
+
+*/
