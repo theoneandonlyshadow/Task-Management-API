@@ -22,7 +22,6 @@
   <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/techcorp?color=56BEB8" /> -->
 </p>
 
-Status:
 
  <h4 align="center"> 
 	Task Management API is ready for review
