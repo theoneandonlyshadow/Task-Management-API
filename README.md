@@ -69,9 +69,9 @@ The following tools were used in this project:
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
 ## Installed NPM Packages ##
-- Pool : collection of database connections that can be reused.
-- Nodemon : nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
-- Express.js : framework that works on top of Node.js web server functionality to simplify its APIs.
+- [pg-pool](https://www.npmjs.com/package/pg-pool) : collection of database connections that can be reused.
+- [Nodemon](https://www.npmjs.com/package/nodemon) : nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+- [Express.js](https://www.npmjs.com/package/express) : framework that works on top of Node.js web server functionality to simplify its APIs.
 
 ## Installed VS Code Extensions ##
 - PostgreSQL : to connect VS Code to PostgreSQL
