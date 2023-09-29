@@ -131,7 +131,7 @@ $ nodemon index
 - -> /tasks/update: Update a task (PUT)
 - -> /tasks/delete: Delete a task (DELETE)
 - -> /tasks/assigntask/{user_id}: Assign Task to a User (POST)
-- -> /tasks/markcomplete: Write "Mark Complete" to a task. "Not Complete" by default when creating a task for a user (PUT).
+- -> /tasks/markcomplete: Write "Marked Complete" to a task. "Not Complete" by default when creating a task for a user (PUT).
 
 ## NOTE ##
 If any feature is not working, please reinstall the tech and try again. If you would like a video of my screen recording about the full project, **please let me know at madhavnair700@gmail.com** or message me in WellFound.
