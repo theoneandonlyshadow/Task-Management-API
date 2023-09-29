@@ -118,7 +118,7 @@ $ nodemon index
 - -> /tasks/update: Update a task (PUT)
 - -> /tasks/delete: Delete a task (DELETE)
 
-##NOTE##
+## NOTE ##
 If any feature is not working, please reinstall the tech and try again. If you would like a video of my screen recording about the full project, **please let me know at madhavnair700@gmail.com** or message me in WellFound.
 
 ## :memo: License ##
