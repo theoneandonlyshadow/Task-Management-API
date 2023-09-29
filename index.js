@@ -155,14 +155,14 @@ const assignTaskRoute = require('./routes/tasks/assignTask');
 const markComplete = require('./routes/tasks/markComplete');
 
 
-// USERS SHIT GOES THERE
+// USERS GOES THERE
 app.use('/users/create', createUserRoute);
 app.use('/users/update', updateUserRoute);
 app.use('/users/delete', deleteUserRoute);
 app.use('/users/display', displayUserRoute);
 app.use('/users/authenticate', authenticateUserRoute);
 
-// TASKS SHIT GOES THERE
+// TASKS GOES THERE
 app.use('/tasks/create', createTaskRoute);
 app.use('/tasks/update', updateTaskRoute);
 app.use('/tasks/delete', deleteTaskRoute);
