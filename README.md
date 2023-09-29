@@ -62,12 +62,24 @@ The following tools were used in this project:
 
 - [Node.js](https://nodejs.org/en/)
 - [PostgreSQL](https://www.postgresql.org/)
-- [TypeScript](https://www.postman.com/)
+- [Postman](https://www.postman.com/)
 - [Docker](https://www.docker.com/)
 
 ## :white_check_mark: Requirements ##
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+
+## Installed NPM Packages ##
+- Pool : collection of database connections that can be reused.
+- Nodemon : nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+- Express.js : framework that works on top of Node.js web server functionality to simplify its APIs.
+
+## Installed VS Code Extensions ##
+- PostgreSQL : to connect VS Code to PostgreSQL
+- GitHub : to connect GitHub account from VS Code
+- Docker : simplifed view of containers.
+- Express : Hosts current workspace with Express web server in Visual Studio Code.
+- WSL :  Linux-based tools, runtimes, and utilities.
 
 ## :checkered_flag: Starting ##
 
