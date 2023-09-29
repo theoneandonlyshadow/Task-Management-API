@@ -109,7 +109,7 @@ $ nodemon index
 - Open Docker Desktop and start.
 - (PowerShell) Type *docker compose up*
 - Project container should be visible in the Docker Desktop.
-- Open pgAdmin 4 (PostgreSQL) and make a new database.
+- Open pgAdmin 4 (PostgreSQL) and create a new database called "techcorp". Dont worry about creating tables, as both users and tasks table will initalize after running index.js. 
 - Open VS Code, open Command Palette and type *New Query* (requires PostgreSQL extension) and type in credentials.
 - (WSL) Type *sudo systemctl status postgresql* to see if PostgreSQL is active.
 - (WSL) Type *psql -U postgres -h localhost* or *psql -h 127.0.0.1 -p 5432 -U postgres* to connect to PostgreSQL.
