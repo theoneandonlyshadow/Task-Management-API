@@ -26,5 +26,12 @@ router.put('/', async (req, res) => {
 
 module.exports = router;
 
-
-
+/* GUIDE FOR POSTMAN:
+- URL to be given: http://localhost:8070/users/update
+- Method: PUT
+- JSON to be passed in body:
+    {
+        "user_name": {user_name), --> changes current username to this username
+        "user_id": {user_id}
+    }
+*/
