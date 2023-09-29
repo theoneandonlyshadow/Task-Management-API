@@ -66,7 +66,7 @@ The following tools were used in this project:
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [Node](https://nodejs.org/en/), [Docker](https://www.docker.com/products/docker-desktop/) & [PostgreSQL](https://www.postgresql.org/download/) installed.
 
 ## Installed NPM Packages ##
 - [pg-pool](https://www.npmjs.com/package/pg-pool) : collection of database connections that can be reused.
