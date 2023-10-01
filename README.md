@@ -24,7 +24,7 @@
 
 
  <h4 align="center"> 
-	Task Management API is ready for review
+	Please read the installation section
 </h4> 
 
 <hr>
